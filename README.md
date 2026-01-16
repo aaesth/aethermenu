@@ -9,43 +9,24 @@ to reload the config do `/aethermenu reload`
 
 ```yaml
 menu:
+  title: "§8choose a server"
   size: 27
+
   freeze-player: true
   hide-players: true
-  root-title: "§8Menu §7» §fMain"
 
-folders:
-  survival:
-    title: "§aSurvival"
-    slot: 11
-    icon: GRASS_BLOCK
+  items:
+    survival:
+      material: DIAMOND_SWORD
+      name: "§asurvival"
+      slot: 11
+      server: "survival"
 
-  pvp:
-    title: "§cPvP"
-    slot: 15
-    icon: DIAMOND_SWORD
-
-servers:
-  survival-1:
-    folder: survival
-    slot: 11
-    name: "§aSurvival #1"
-    material: IRON_SWORD
-    target: survival1
-
-  survival-2:
-    folder: survival
-    slot: 13
-    name: "§aSurvival #2"
-    material: DIAMOND_SWORD
-    target: survival2
-
-  kitpvp:
-    folder: pvp
-    slot: 13
-    name: "§cKitPvP"
-    material: NETHERITE_SWORD
-    target: kitpvp
+    creative:
+      material: GRASS_BLOCK
+      name: "§bcreative"
+      slot: 15
+      server: "creative"
 ```
 </details>
 
