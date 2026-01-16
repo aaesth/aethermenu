@@ -1,8 +1,8 @@
 # aethermenu
-paper plugin to hide players and show a menu for hub servers
-
+paper plugin to hide players and show a menu for hub servers<br>
 im also making this to learn java so my code is ass
 
+to reload the config do /aethermenu reload<br>
 example config
 ```
 menu:
