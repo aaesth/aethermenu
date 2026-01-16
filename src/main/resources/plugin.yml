@@ -1,0 +1,4 @@
+name: aethermenu
+version: 1.0
+main: cc.aesth.aethermenu.AetherMenu
+api-version: 1.19
